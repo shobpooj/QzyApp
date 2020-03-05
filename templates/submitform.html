@@ -1,10 +1,114 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
 
-</body>
-</html>
+{% extends "layout.html" %}
+
+{% block content %}
+
+
+
+<div class="md-form">
+
+  <label for="form7"><h3>Question.</h3></label>
+
+    <textarea id="form7" class="md-textarea form-control" rows="3"></textarea>
+
+</div>
+
+<div>
+
+    <br>
+
+</div>
+
+
+
+<div class="form-group row">
+
+  <div class="col-xs-1">
+
+    <label for="ex1">A.</label>
+
+    <input class="form-control" id="ex1" type="text">
+
+  </div>
+
+    <br> <p>&#160;&#160;&#160;</p>
+
+  <div class="col-xs-2">
+
+    <label for="ex2">B.</label>
+
+    <input class="form-control" id="ex2" type="text">
+
+  </div>
+
+    <br><p>&#160;&#160;&#160;</p>
+
+  <div class="col-xs-2">
+
+    <label for="ex3">C.</label>
+
+    <input class="form-control" id="ex3" type="text">
+
+  </div>
+
+    <div class="col-xs-3">
+
+    <label for="ex3">D.</label>
+
+    <input class="form-control" id="ex3" type="text">
+
+  </div>
+
+</div>
+
+<h3>Correct answer.</h3>
+
+<br>
+
+<div class="form-group row">
+
+  <div class="col-xs-2">
+
+    <input class="form-control" id="ex3" type="text">
+
+  </div>
+
+</div>
+
+    <br>
+
+<div class="dropdown">
+
+  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+
+    Category
+
+  </button>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+    <a class="dropdown-item" href= "#">category 1</a>
+
+    <a class="dropdown-item" href="#">category 2</a>
+
+    <a class="dropdown-item" href="#">Add new category</a>
+
+  </div>
+
+</div>
+
+<pre>
+
+  
+
+</pre>
+
+<input class="btn btn-primary" type="submit" value="Add Question.">
+
+
+
+
+
+
+
+{% endblock content %}
